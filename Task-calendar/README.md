@@ -41,9 +41,6 @@ Visit `http://localhost:4045`
 
 All endpoints return and accept `application/json`.
 
-
-## Docker
-
 ### Image details
 
 - Base image: `node:20-alpine`
