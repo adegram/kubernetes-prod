@@ -30,23 +30,3 @@ Projects may vary in scope and are organized separately based on the Kubernetes 
 - YAML
 
 Additional Kubernetes tools and AWS services may be used where they are relevant to individual projects.
-
-## Project Structure
-
-Each Kubernetes project is kept in its own directory.
-
-```text
-Kubernetes-production/
-│
-├── deployments/
-├── services/
-├── configmaps-secrets/
-├── ingress/
-├── persistent-storage/
-├── resource-management/
-├── autoscaling/
-├── helm-charts/
-├── rbac/
-├── production-workloads/
-│
-└── README.md
