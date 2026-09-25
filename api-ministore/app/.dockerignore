@@ -1,0 +1,9 @@
+.git
+.env
+.env.*
+*.pem
+*.key
+*.log
+node_modules
+coverage
+*.test.js

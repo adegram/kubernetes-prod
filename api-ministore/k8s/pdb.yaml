@@ -1,0 +1,9 @@
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: ministore-api
+  namespace: ministore
+spec:
+  minAvailable: 2
+  selector:
+    matchLabels: {app.kubernetes.io/name: ministore-api}

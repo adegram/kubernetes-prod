@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ministore-api
+  namespace: ministore
+spec:
+  type: ClusterIP
+  selector: {app.kubernetes.io/name: ministore-api}
+  ports: [{name: http, port: 80, targetPort: http}]
